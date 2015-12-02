@@ -1,0 +1,45 @@
+/* Error Description: Unknown client app error */
+"SBB_ERROR_4XX_CONTACT_SUPPORT" = "Client-Fehler: %@. Bitte wenden Sie sich an den Kundensupport.";
+
+/* Error Description: Account holder has not consented to the study */
+"SBB_ERROR_ACCOUNT_NOT_CONSENTED" = "Keine Einwilligung erteilt";
+
+/* Error Description: error copying file */
+"SBB_ERROR_COPYING_FILE" = "Fehler beim Kopieren der Datei mit dem URL in die temporäre Datei:
+%@";
+
+/* Error Description: Server not reachable */
+"SBB_ERROR_INTERNET_UNREACHABLE" = "Backend-Server nicht erreichbar";
+
+/* Error Description: not a valid url */
+"SBB_ERROR_INVALID_FILE_URL" = "Kein gültiger Datei-URL:
+%@";
+
+/* Error Description: not authenticated */
+"SBB_ERROR_NOT_AUTHENTICATED" = "Server antwortet: nicht authentifiziert. Bitte authentifizieren.";
+
+/* Error Description: missing login credentials */
+"SBB_ERROR_NO_CREDENTIALS" = "Keine Benutzeranmeldedaten verfügbar. Bitte anmelden.";
+
+/* Error Description: Internet not connected */
+"SBB_ERROR_NO_INTERNET" = "Keine Internet-Verbindung";
+
+/* Error Description: error reading temp file */
+"SBB_ERROR_READING_TEMP_FILE" = "Fehler beim Lesen des ursprünglichen Datei-URL aus der temporären Datei:
+%@";
+
+/* Error Description: Unknown server error */
+"SBB_ERROR_SERVER_ERROR" = "Fehler beim Backend-Server: %@. Bitte wenden Sie sich an den Kundensupport.";
+
+/* Error Description: Backend Server Under Maintenance */
+"SBB_ERROR_SERVER_MAINTENANCE" = "Backend-Server wird derzeit gewartet.";
+
+/* Error Description: Object is not of expected class. object description=$1, actual class=$2, expected class=$3 */
+"SBB_ERROR_UNEXPECTED_CLASS" = "Objekt '%1$@' weist Klasse %2$@ auf. Erwartet wird Klasse %3$@";
+
+/* Error Description: Unknown network error */
+"SBB_ERROR_UNKNOWN_NETWORK_ERROR" = "Unbekannter Netzwerkfehler";
+
+/* Error Description: App requires upgrade */
+"SBB_ERROR_UNSUPPORTED_APP_VERSION" = "Ihre Version dieser App wird nicht mehr unterstützt. Bitte besuchen Sie den App Store, um die App zu aktualisieren.";
+

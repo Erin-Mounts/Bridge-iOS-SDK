@@ -219,6 +219,11 @@
 		80BB09F819C2234100E419A1 /* SBBAuthManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 80BB09F619C2234100E419A1 /* SBBAuthManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		80BB09F919C2234100E419A1 /* SBBAuthManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 80BB09F719C2234100E419A1 /* SBBAuthManager.m */; };
 		80C3D07919DDE94A00DEA044 /* SBBTestAuthManagerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C3D07819DDE94A00DEA044 /* SBBTestAuthManagerDelegate.m */; };
+		80CBB12A1C0E6A5500E50D06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80CBB12C1C0E6A5500E50D06 /* InfoPlist.strings */; };
+		80CBB12F1C0E6A5E00E50D06 /* BridgeSDK.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80CBB1311C0E6A5E00E50D06 /* BridgeSDK.strings */; };
+		80CBB1341C0E6A6000E50D06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80CBB1361C0E6A6000E50D06 /* InfoPlist.strings */; };
+		80CBB13B1C0E6A6600E50D06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80CBB13D1C0E6A6600E50D06 /* InfoPlist.strings */; };
+		80CBB1401C0E6A6700E50D06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80CBB1421C0E6A6700E50D06 /* InfoPlist.strings */; };
 		80DB6BA01BACB06F0062D1EF /* BridgeSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80855F5019BE258C006601C7 /* BridgeSDK.framework */; };
 		80DB6BA41BACB27C0062D1EF /* BridgeSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80855F5019BE258C006601C7 /* BridgeSDK.framework */; };
 		80DB6BA51BACB27C0062D1EF /* BridgeSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 80855F5019BE258C006601C7 /* BridgeSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -492,6 +497,27 @@
 		80C3D07519DCA03C00DEA044 /* TemplateIcon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TemplateIcon2x.png; path = BridgeSDK/TemplateIcon2x.png; sourceTree = "<group>"; };
 		80C3D07719DDE94A00DEA044 /* SBBTestAuthManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBBTestAuthManagerDelegate.h; sourceTree = "<group>"; };
 		80C3D07819DDE94A00DEA044 /* SBBTestAuthManagerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBBTestAuthManagerDelegate.m; sourceTree = "<group>"; };
+		80CBB12B1C0E6A5500E50D06 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		80CBB1301C0E6A5E00E50D06 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/BridgeSDK.strings; sourceTree = "<group>"; };
+		80CBB1351C0E6A6000E50D06 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		80CBB1371C0E6A6100E50D06 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		80CBB1381C0E6A6300E50D06 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		80CBB13C1C0E6A6600E50D06 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		80CBB1411C0E6A6700E50D06 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		80CBB1431C0F971F00E50D06 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		80CBB1441C0F972500E50D06 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/BridgeSDK.strings; sourceTree = "<group>"; };
+		80CBB1451C0F972E00E50D06 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		80CBB1461C0F973000E50D06 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		80CBB1471C0F973500E50D06 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		80CBB1481C0F973700E50D06 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		80CBB1491C0F973800E50D06 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		80CBB14A1C0F975900E50D06 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		80CBB14B1C0F975A00E50D06 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/BridgeSDK.strings; sourceTree = "<group>"; };
+		80CBB14C1C0F975A00E50D06 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		80CBB14D1C0F975B00E50D06 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		80CBB14E1C0F975B00E50D06 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Main.strings; sourceTree = "<group>"; };
+		80CBB14F1C0F975C00E50D06 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		80CBB1501C0F975C00E50D06 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		80E09AD619F8525C00EB5F0B /* hdocExcludes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = hdocExcludes.txt; path = BridgeSDK/hdocExcludes.txt; sourceTree = "<group>"; };
 		80E60D9D19FAD56C0053D166 /* _SBBSchedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _SBBSchedule.h; sourceTree = "<group>"; };
 		80E60D9E19FAD56C0053D166 /* _SBBSchedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _SBBSchedule.m; sourceTree = "<group>"; };
@@ -708,6 +734,7 @@
 		807AE2891B603309002588BB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				80CBB1361C0E6A6000E50D06 /* InfoPlist.strings */,
 				807AE28A1B603309002588BB /* Info.plist */,
 				807AE28B1B603309002588BB /* main.m */,
 			);
@@ -738,6 +765,7 @@
 		807AE2A31B60330C002588BB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				80CBB12C1C0E6A5500E50D06 /* InfoPlist.strings */,
 				807AE2A41B60330C002588BB /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -787,6 +815,8 @@
 		80855F5319BE258C006601C7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				80CBB1421C0E6A6700E50D06 /* InfoPlist.strings */,
+				80CBB1311C0E6A5E00E50D06 /* BridgeSDK.strings */,
 				80855F5419BE258C006601C7 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -821,6 +851,7 @@
 		80855F5D19BE258C006601C7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				80CBB13D1C0E6A6600E50D06 /* InfoPlist.strings */,
 				80855F5E19BE258C006601C7 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -1246,6 +1277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				807AE2951B60330A002588BB /* Main.storyboard in Resources */,
+				80CBB1341C0E6A6000E50D06 /* InfoPlist.strings in Resources */,
 				807AE29A1B60330B002588BB /* LaunchScreen.xib in Resources */,
 				807AE2971B60330A002588BB /* Images.xcassets in Resources */,
 			);
@@ -1256,6 +1288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				807AE2C11B603622002588BB /* cat.jpg in Resources */,
+				80CBB12A1C0E6A5500E50D06 /* InfoPlist.strings in Resources */,
 				807AE2C21B60403E002588BB /* BridgeAdminCredentials.plist in Resources */,
 				807AE2B71B6034B5002588BB /* sample-signature.png in Resources */,
 			);
@@ -1265,6 +1298,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80CBB12F1C0E6A5E00E50D06 /* BridgeSDK.strings in Resources */,
+				80CBB1401C0E6A6700E50D06 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1273,6 +1308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4FA38031A2B144000E7CF1E /* sample-signature.png in Resources */,
+				80CBB13B1C0E6A6600E50D06 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1497,6 +1533,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				807AE2941B60330A002588BB /* Base */,
+				80CBB1381C0E6A6300E50D06 /* de */,
+				80CBB1471C0F973500E50D06 /* fr */,
+				80CBB14E1C0F975B00E50D06 /* nl */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -1505,8 +1544,61 @@
 			isa = PBXVariantGroup;
 			children = (
 				807AE2991B60330B002588BB /* Base */,
+				80CBB1371C0E6A6100E50D06 /* de */,
+				80CBB1461C0F973000E50D06 /* fr */,
+				80CBB14D1C0F975B00E50D06 /* nl */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		80CBB12C1C0E6A5500E50D06 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80CBB12B1C0E6A5500E50D06 /* de */,
+				80CBB1431C0F971F00E50D06 /* fr */,
+				80CBB14A1C0F975900E50D06 /* nl */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		80CBB1311C0E6A5E00E50D06 /* BridgeSDK.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80CBB1301C0E6A5E00E50D06 /* de */,
+				80CBB1441C0F972500E50D06 /* fr */,
+				80CBB14B1C0F975A00E50D06 /* nl */,
+			);
+			name = BridgeSDK.strings;
+			sourceTree = "<group>";
+		};
+		80CBB1361C0E6A6000E50D06 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80CBB1351C0E6A6000E50D06 /* de */,
+				80CBB1451C0F972E00E50D06 /* fr */,
+				80CBB14C1C0F975A00E50D06 /* nl */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		80CBB13D1C0E6A6600E50D06 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80CBB13C1C0E6A6600E50D06 /* de */,
+				80CBB1481C0F973700E50D06 /* fr */,
+				80CBB14F1C0F975C00E50D06 /* nl */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		80CBB1421C0E6A6700E50D06 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80CBB1411C0E6A6700E50D06 /* de */,
+				80CBB1491C0F973800E50D06 /* fr */,
+				80CBB1501C0F975C00E50D06 /* nl */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
